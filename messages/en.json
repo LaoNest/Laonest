@@ -1,0 +1,22 @@
+{
+  "common": {
+    "appName": "LaoNest",
+    "slogan": "Home Starts Here."
+  },
+  "home": {
+    "welcome": "Find verified homes. Manage properties with confidence."
+  },
+  "auth": {
+    "registerTitle": "Create your account",
+    "loginTitle": "Welcome back",
+    "fullName": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "registerButton": "Create account",
+    "loginButton": "Log in",
+    "haveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "registerSuccess": "Account created! You can now log in.",
+    "genericError": "Something went wrong. Please try again."
+  }
+}

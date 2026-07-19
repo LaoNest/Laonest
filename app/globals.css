@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* ============================================
+   LaoNest Design Tokens — v1
+   Brand: Royal Blue · Emerald · Navy · White · Light Gray
+   ============================================ */
+
+:root {
+  /* Brand colors */
+  --royal-blue: #2563eb;       /* Primary — buttons, links, active states */
+  --royal-blue-dark: #1d4ed8;  /* Primary hover */
+  --royal-blue-light: #dbeafe; /* Primary soft backgrounds */
+  --emerald: #10b981;          /* Success, verified badges, money-positive */
+  --emerald-dark: #059669;     /* Emerald hover */
+  --emerald-light: #d1fae5;    /* Verified badge backgrounds */
+  --navy: #0f172a;             /* Headings, dark text, footer */
+  --navy-soft: #334155;        /* Secondary text */
+
+  /* Neutrals */
+  --background: #ffffff;
+  --surface: #f8fafc;          /* Light gray — page sections, cards area */
+  --border-soft: #e2e8f0;
+  --foreground: #0f172a;
+  --muted: #64748b;
+
+  /* Status */
+  --warning: #f59e0b;          /* Rent due soon, pending review */
+  --danger: #ef4444;           /* Late payment, rejected, report */
+
+  /* Shape */
+  --radius-card: 1rem;         /* Rounded cards per design principles */
+  --radius-button: 0.75rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--royal-blue);
+  --color-primary-dark: var(--royal-blue-dark);
+  --color-primary-light: var(--royal-blue-light);
+  --color-success: var(--emerald);
+  --color-success-dark: var(--emerald-dark);
+  --color-success-light: var(--emerald-light);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-surface: var(--surface);
+  --color-border-soft: var(--border-soft);
+  --color-muted: var(--muted);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
