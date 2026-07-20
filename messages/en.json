@@ -34,10 +34,13 @@
     "deposit": "Deposit",
     "currency": "Currency",
     "saveDraft": "Save as draft",
-    "saved": "Listing saved as draft!","myPropertiesTitle": "My properties",
+    "saved": "Listing saved as draft!",
+    "myPropertiesTitle": "My properties",
     "newListing": "+ New listing",
     "noProperties": "No properties yet. Create your first listing!",
     "perMonth": "/month",
+    "photos": "Photos",
+    "submitForReview": "Submit for review",
     "statuses": {
       "draft": "Draft",
       "pending": "Pending review",
@@ -58,5 +61,13 @@
       "commercial": "Commercial space",
       "warehouse": "Warehouse"
     }
+  },
+  "admin": {
+    "queueTitle": "Listing approval queue",
+    "noPending": "No listings waiting for review.",
+    "approve": "Approve",
+    "reject": "Reject",
+    "rejectReason": "Reason for rejection:",
+    "owner": "Owner"
   }
 }

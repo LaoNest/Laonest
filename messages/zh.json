@@ -34,10 +34,13 @@
     "deposit": "押金",
     "currency": "货币",
     "saveDraft": "保存为草稿",
-    "saved": "房源已保存为草稿！","myPropertiesTitle": "我的房产",
+    "saved": "房源已保存为草稿！",
+    "myPropertiesTitle": "我的房产",
     "newListing": "+ 新建房源",
     "noProperties": "还没有房产。创建您的第一个房源吧！",
     "perMonth": "/月",
+    "photos": "照片",
+    "submitForReview": "提交审核",
     "statuses": {
       "draft": "草稿",
       "pending": "待审核",
@@ -58,5 +61,13 @@
       "commercial": "商业空间",
       "warehouse": "仓库"
     }
+  },
+  "admin": {
+    "queueTitle": "房源审核队列",
+    "noPending": "没有待审核的房源。",
+    "approve": "批准",
+    "reject": "拒绝",
+    "rejectReason": "拒绝原因：",
+    "owner": "业主"
   }
 }

@@ -34,10 +34,13 @@
     "deposit": "ເງິນມັດຈຳ",
     "currency": "ສະກຸນເງິນ",
     "saveDraft": "ບັນທຶກເປັນສະບັບຮ່າງ",
-    "saved": "ບັນທຶກລາຍການສຳເລັດ!","myPropertiesTitle": "ຊັບສິນຂອງຂ້ອຍ",
+    "saved": "ບັນທຶກລາຍການສຳເລັດ!",
+    "myPropertiesTitle": "ຊັບສິນຂອງຂ້ອຍ",
     "newListing": "+ ສ້າງລາຍການໃໝ່",
     "noProperties": "ຍັງບໍ່ມີຊັບສິນ. ສ້າງລາຍການທຳອິດຂອງທ່ານ!",
     "perMonth": "/ເດືອນ",
+    "photos": "ຮູບພາບ",
+    "submitForReview": "ສົ່ງໃຫ້ກວດສອບ",
     "statuses": {
       "draft": "ສະບັບຮ່າງ",
       "pending": "ລໍຖ້າກວດສອບ",
@@ -58,5 +61,13 @@
       "commercial": "ພື້ນທີ່ການຄ້າ",
       "warehouse": "ສາງເກັບເຄື່ອງ"
     }
+  },
+  "admin": {
+    "queueTitle": "ຄິວອະນຸມັດລາຍການ",
+    "noPending": "ບໍ່ມີລາຍການລໍຖ້າກວດສອບ.",
+    "approve": "ອະນຸມັດ",
+    "reject": "ປະຕິເສດ",
+    "rejectReason": "ເຫດຜົນການປະຕິເສດ:",
+    "owner": "ເຈົ້າຂອງ"
   }
 }

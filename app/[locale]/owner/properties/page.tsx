@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import { createClient } from "../../../../lib/supabase/server";
+import SubmitForReviewButton from "../../../../components/owner/SubmitForReviewButton";
 
 const STATUS_STYLES: Record<string, string> = {
   draft: "bg-surface text-muted border border-border-soft",
@@ -76,7 +77,7 @@ export default async function MyPropertiesPage({
             {properties.map((property) => (
               <div
                 key={property.id}
-                className="bg-background rounded-2xl border border-border-soft shadow-sm p-6 space-y-3"
+                className="bg-background rounded-2xl border border-border-soft shadow-sm p-6 space-y-4"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="space-y-1">
@@ -98,10 +99,18 @@ export default async function MyPropertiesPage({
                   </span>
                 </div>
 
-                <div className="flex items-end justify-between">
-                  <p className="text-sm text-navy-soft">
-                    🛏 {property.bedrooms} · 🛁 {property.bathrooms}
-                  </p>
+                <div className="flex items-end justify-between gap-4">
+                  <div className="flex items-center gap-4">
+                    <p className="text-sm text-navy-soft">
+                      🛏 {property.bedrooms} · 🛁 {property.bathrooms}
+                    </p>
+                    <Link
+                      href={`/${locale}/owner/properties/${property.id}/photos`}
+                      className="text-sm font-medium text-primary hover:text-primary-dark"
+                    >
+                      📷 {t("photos")}
+                    </Link>
+                  </div>
                   <p className="text-lg font-bold text-navy">
                     {formatRent(property.monthly_rent, property.currency)}
                     <span className="text-sm font-normal text-muted">
@@ -109,6 +118,12 @@ export default async function MyPropertiesPage({
                     </span>
                   </p>
                 </div>
+
+                {property.status === "draft" && (
+                  <div className="pt-2 border-t border-border-soft">
+                    <SubmitForReviewButton propertyId={property.id} />
+                  </div>
+                )}
               </div>
             ))}
           </div>
