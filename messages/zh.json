@@ -1,9 +1,62 @@
 {
   "common": {
     "appName": "LaoNest",
-    "slogan": "家，从这里开始。"
+    "slogan": "家，从这里开始。",
+    "save": "保存",
+    "cancel": "取消"
   },
   "home": {
     "welcome": "寻找经过验证的房源，安心管理您的房产。"
+  },
+  "auth": {
+    "registerTitle": "创建您的账户",
+    "loginTitle": "欢迎回来",
+    "fullName": "姓名",
+    "email": "电子邮箱",
+    "password": "密码",
+    "registerButton": "创建账户",
+    "loginButton": "登录",
+    "haveAccount": "已有账户？",
+    "noAccount": "还没有账户？",
+    "registerSuccess": "账户创建成功！您现在可以登录了。",
+    "genericError": "出错了，请重试。"
+  },
+  "listing": {
+    "createTitle": "创建房源",
+    "propertyType": "房产类型",
+    "district": "城区",
+    "village": "村",
+    "title": "房源标题",
+    "description": "描述",
+    "bedrooms": "卧室",
+    "bathrooms": "浴室",
+    "monthlyRent": "月租金",
+    "deposit": "押金",
+    "currency": "货币",
+    "saveDraft": "保存为草稿",
+    "saved": "房源已保存为草稿！","myPropertiesTitle": "我的房产",
+    "newListing": "+ 新建房源",
+    "noProperties": "还没有房产。创建您的第一个房源吧！",
+    "perMonth": "/月",
+    "statuses": {
+      "draft": "草稿",
+      "pending": "待审核",
+      "active": "已发布",
+      "rented": "已出租",
+      "hidden": "已隐藏",
+      "rejected": "已拒绝"
+    },
+    "types": {
+      "apartment": "公寓",
+      "flat": "单元房",
+      "house": "独栋房屋",
+      "villa": "别墅",
+      "studio": "开间",
+      "room": "单间",
+      "office": "办公室",
+      "shophouse": "商住两用房",
+      "commercial": "商业空间",
+      "warehouse": "仓库"
+    }
   }
 }

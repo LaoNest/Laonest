@@ -1,7 +1,9 @@
 {
   "common": {
     "appName": "LaoNest",
-    "slogan": "Home Starts Here."
+    "slogan": "Home Starts Here.",
+    "save": "Save",
+    "cancel": "Cancel"
   },
   "home": {
     "welcome": "Find verified homes. Manage properties with confidence."
@@ -18,5 +20,43 @@
     "noAccount": "Don't have an account?",
     "registerSuccess": "Account created! You can now log in.",
     "genericError": "Something went wrong. Please try again."
+  },
+  "listing": {
+    "createTitle": "Create listing",
+    "propertyType": "Property type",
+    "district": "District",
+    "village": "Village",
+    "title": "Listing title",
+    "description": "Description",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "monthlyRent": "Monthly rent",
+    "deposit": "Deposit",
+    "currency": "Currency",
+    "saveDraft": "Save as draft",
+    "saved": "Listing saved as draft!","myPropertiesTitle": "My properties",
+    "newListing": "+ New listing",
+    "noProperties": "No properties yet. Create your first listing!",
+    "perMonth": "/month",
+    "statuses": {
+      "draft": "Draft",
+      "pending": "Pending review",
+      "active": "Active",
+      "rented": "Rented",
+      "hidden": "Hidden",
+      "rejected": "Rejected"
+    },
+    "types": {
+      "apartment": "Apartment",
+      "flat": "Flat",
+      "house": "House",
+      "villa": "Villa",
+      "studio": "Studio",
+      "room": "Room",
+      "office": "Office",
+      "shophouse": "Shop house",
+      "commercial": "Commercial space",
+      "warehouse": "Warehouse"
+    }
   }
 }
